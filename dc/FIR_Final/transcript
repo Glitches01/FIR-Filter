@@ -1,0 +1,46 @@
+project open /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR
+# Loading project FIR
+vsim work.FIR_tb
+# vsim work.FIR_tb 
+# Start time: 23:42:02 on Dec 08,2024
+# //  ModelSim DE 2024.2 May 20 2024 Linux 4.18.0-553.27.1.el8_10.x86_64
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.FIR_tb
+# Loading work.fxp2float
+# Loading work.FIR_POSE
+# Loading work.FIFO
+# Loading work.ram
+# Loading work.sram
+# Loading work.RF1SHD
+# Loading work.IMEM
+# Loading work.Control
+# Loading work.ALU
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_tb File: /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR_tb.v Line: 58
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_tb File: /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR_tb.v Line: 64
+add wave -position insertpoint sim:/FIR_tb/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_tb File: /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR_tb.v Line: 58
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /FIR_tb File: /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR_tb.v Line: 64
+run -all
+# ** Note: $finish    : /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR_tb.v(90)
+#    Time: 1000100 us  Iteration: 1  Instance: /FIR_tb
+# 1
+# Break in Module FIR_tb at /homes/user/stud/fall24/zy2665/4823project/RTL/fir/FIR_tb.v line 90
+# End time: 23:57:03 on Dec 08,2024, Elapsed time: 0:15:01
+# Errors: 0, Warnings: 3
