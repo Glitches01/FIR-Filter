@@ -1,0 +1,37 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : FIFO_N
+Version: U-2022.12-SP7
+Date   : Tue Dec 10 02:35:11 2024
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+o_empty (out)                       2.89 r          999.95       997.06
+o_full (out)                        2.59 r          999.95       997.36
+o_rdata[15] (out)                   0.80 f          999.95       999.15
+o_rdata[14] (out)                   0.80 f          999.95       999.15
+o_rdata[13] (out)                   0.80 f          999.95       999.15
+o_rdata[12] (out)                   0.80 f          999.95       999.15
+o_rdata[11] (out)                   0.80 f          999.95       999.15
+o_rdata[10] (out)                   0.80 f          999.95       999.15
+o_rdata[9] (out)                    0.80 f          999.95       999.15
+o_rdata[8] (out)                    0.80 f          999.95       999.15
+o_rdata[7] (out)                    0.80 f          999.95       999.15
+o_rdata[6] (out)                    0.80 f          999.95       999.15
+o_rdata[5] (out)                    0.80 f          999.95       999.15
+o_rdata[4] (out)                    0.80 f          999.95       999.15
+o_rdata[3] (out)                    0.80 f          999.95       999.15
+o_rdata[2] (out)                    0.80 f          999.95       999.15
+o_rdata[1] (out)                    0.80 f          999.95       999.15
+o_rdata[0] (out)                    0.80 f          999.95       999.15
+
+1
