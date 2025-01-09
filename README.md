@@ -1,5 +1,5 @@
 # FIR-Filter
-/*************Description**************/  
+*************Description**************  
 ./dc for design complier synthesis  
 ./docs for algorithms and datapath diagram  
 ./matlab for coefficient and data input generation, also act as golden verification reference  
